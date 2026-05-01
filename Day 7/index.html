@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+      @import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive:regular);
+
+      /* universal selector  */
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* element selector  */
+      h1 {
+        color: green;
+        /* text-align: center; */
+        text-align: end;
+        /* text-align: right; */
+        /* text-align: left; */
+        /* text-align: start; */
+      }
+      p {
+        color: gray;
+        font-family: "Cedarville Cursive", cursive;
+        height: 250px;
+      }
+      /* id selector  */
+      #author {
+        color: blue;
+      }
+      /* class selector  */
+      .desc {
+        background: rgb(195, 222, 195);
+        padding: 10px;
+      }
+
+      /* attribute selector  */
+      img[alt="banner2"] {
+        width: 600px;
+      }
+
+      /* grouping selector  */
+      p,
+      span {
+        font-size: 30px;
+        text-align: center;
+        align-content: center;
+      }
+
+      /* pseudo selector  */
+      /* p:hover{
+            font-size: 20px;
+            color: aquamarine;
+        } */
+
+        button{
+            border: none;
+            background-color: green;
+            color: white;
+            margin:20px 0 0 20px;
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+
+        /* css units: 
+        1.px
+        2.rem
+        3.em
+        4.%
+        5.vh
+        6.vw */
+
+        .box{
+            height: 250px;
+            width: 250px;
+            /* border: 2px solid; */
+            border-radius: 50%;
+            box-shadow: 0px 0px 20px 18px gray;
+        }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="box"></div>
+
+    <button>Send Enquiry</button>
+
+    <h1>AI and IT Education: What Changes, What Stays, and Why Both Matter</h1>
+    <img
+      src="https://www.mindrisers.com.np/static/Images/blog/banner/AI_and_IT_Education.png"
+      width="450"
+      alt="banner"
+    />
+    <img
+      src="https://www.mindrisers.com.np/static/Images/blog/banner/AI_and_IT_Education.png"
+      width="450"
+      alt="banner2"
+    />
+
+    <p>
+      AI has made learning faster and more accessible. But it has also raised
+      the bar. Employers now expect you to do more, know more, and think more
+      critically
+    </p>
+
+    <span id="author">Kevin Joshi - Author</span> <br />
+
+    <span>What This Means for the Future</span>
+
+    <p class="desc">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ullam
+      commodi quae officia itaque ex minus sed voluptatem fugit quam quod nisi
+      cum necessitatibus ipsa quos obcaecati optio, sit perferendis.
+    </p>
+
+    <p class="desc">
+      They give immediate feedback. When you write code and it breaks, an AI can
+      tell you within seconds what went wrong and why. Traditional learning
+      meant waiting for a teacher to check your work.
+    </p>
+
+    <h1>1.1 What AI Actually Does in a Learning Context</h1>
+  </body>
+</html>

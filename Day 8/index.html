@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .box {
+        height: 250px;
+        width: 250px;
+        /* border: 2px solid; */
+        /* box-shadow: x-offset y-offset blur spread color; */
+        /* box-shadow: 0px 0px 15px 17px gray; */
+        box-shadow: 0px 34px 3px 9px gray;
+        /* box-shadow: inset 0px 0px 15px 4px gray; */
+        border-radius: 50%;
+        /* background-color: white; */
+
+        /* transition:; */
+
+        /* transition-property: background; */
+        transition-property: all;
+        transition-duration: 2s;
+        /* transition-delay: 2s; */
+        /* transition-timing-function:ease; */
+        transition-timing-function: cubic-bezier(0.41, 0.08, 0.12, 0.78);
+      }
+
+      .box:hover {
+        cursor: pointer;
+        /* cursor: progress; */
+        /* cursor: help; */
+        box-shadow: 0px 0px 15px 17px red;
+        background: rgb(239, 204, 140);
+      }
+
+      .box2 {
+        height: 250px;
+        width: 250px;
+        border: 2px solid white;
+        color: white;
+
+        /* overflow: auto; */
+        /* overflow:scroll; */
+        /* overflow-y: scroll; */
+        /* overflow-x: scroll; */
+        overflow: hidden;
+        /* text-wrap: nowrap; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box"></div> -->
+    <div class="box2">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi est
+      dolore deserunt odio fuga, numquam doloribus omnis, molestiae quia debitis
+      rem aspernatur voluptatem saepe ullam eos explicabo sed. Ut, tempore?
+      dolore deserunt odio fuga, numquam doloribus omnis, molestiae quia debitis
+      rem aspernatur voluptatem saepe ullam eos explicabo sed. Ut, tempore?
+      dolore deserunt odio fuga, numquam doloribus omnis, molestiae quia debitis
+      rem aspernatur voluptatem saepe ullam eos explicabo sed. Ut, tempore?
+      dolore deserunt odio fuga, numquam doloribus omnis, molestiae quia debitis
+      rem aspernatur voluptatem saepe ullam eos explicabo sed. Ut, tempore?
+      dolore deserunt odio fuga, numquam doloribus omnis, molestiae quia debitis
+      rem aspernatur voluptatem saepe ullam eos explicabo sed. Ut, tempore?
+    </div>
+  </body>
+</html>
