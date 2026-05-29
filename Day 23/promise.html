@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- axios cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <!-- promise => pending,fulfilled, rejected
+
+    condition => resolve(), reject() -->
+
+    <script>
+      //    async function getCourse(){
+      //         try{
+      //         // const res = await fetch("https://fakestoreapi.com/products");
+      //         const res = await fetch("https://www.mindrisers.com.np/blog/api/v1/course/");
+      //         const data = await res.json();
+      //         console.log(data)
+      //         } catch(error){
+      //             console.log("error:", error)
+      //         }
+      //     }
+      //     getCourse();
+
+      async function getCourse() {
+        try {
+          const res = await axios.get(
+            "https://www.mindrisers.com.np/blog/api/v1/course/",
+          );
+          console.log("all data",res?.data);
+        } catch (error) {
+          console.log("error:", error);
+        }
+      }
+      getCourse();
+    </script>
+  </body>
+</html>
